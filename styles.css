@@ -63,9 +63,13 @@ body {
 .sign-up {
     background-color: #3882f6;
     color: white;
-    padding: 8px 16px 8px 16px;
     margin-top: 12px;
-    border-radius: 12px;
+    color: white;
+    padding: 10px 30px;
+    border-color: white;
+    border-style: hidden;
+    border-radius: 8px;
+    align-self: center;
 }
 
 .image-container {
@@ -107,4 +111,84 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 16px;
+}
+
+.section.quote {
+    width: 96vw;
+    height: 80vh;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    width: 40vw;
+}
+
+.quote-text {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 100;
+    color: #394557;
+}
+
+.author {
+    text-align: right;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-right: 32px;
+    margin-top: 8px;
+}
+
+.section.call-action {
+    width: 96vw;
+    height: 60vh;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-action .container{
+    background-color: #3882f6;
+    padding: 40px 100px;
+    border-radius: 16px;
+    display: flex;
+    gap: 48px;
+}
+
+.call-action .text > h5 {
+    color: white;
+    font-size: 22px;
+    margin: 8px;
+}
+
+.call-action .text > p {
+    color: white;
+    margin: 8px;
+}
+
+.call-action button {
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 30px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 8px;
+    flex: 0 0 auto;
+    align-self: center;
+    margin-left: 36px;
+}
+
+.section.footer {
+    height: 15vh;
+    width: 96vw;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(185, 183, 207);
+    font-size: 12px;
 }
